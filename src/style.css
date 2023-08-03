@@ -1,0 +1,49 @@
+@font-face {
+    /* font-family: xtradex;
+    src: url(../fonts/Xtradex.ttf); */
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+
+}
+
+.header-content {
+
+}
+
+.setup-choice-container {
+
+}
+
+.setup-choice-content {
+
+}
+
+button.setup-choice {
+
+}
+
+.sketch-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+}
+
+button.sketch-box {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px black solid;
+}
+
+button.sketch-box-hovered {
+    background-color: black;
+}
