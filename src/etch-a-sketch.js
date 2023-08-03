@@ -16,12 +16,13 @@ function getGridBoxWidth() {
     let gridBoxWidth = 0;
     do {
         gridBoxWidth = prompt('Please provide a grid-width: ');
+        if (gridBoxWidth === null) { break; }
         if (gridBoxWidth > 100) {
-            alert('Please enter a number less than or equal to 100');
+            let alertChoice = alert('Please enter a number less than or equal to 100');
             continue;
         }
         if (gridBoxWidth < 1) {
-            alert('Please enter a number greater than 0');
+            let alertChoice = alert('Please enter a number greater than 0');
             continue;
         }
     } while (gridBoxWidth < 1 || gridBoxWidth > 100)
