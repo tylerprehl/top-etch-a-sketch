@@ -18,3 +18,4 @@ To do:
 <li>Provide option for black or rainbow coloring</li>
 <li>Give it some nice style</li>
 </ul>
+Update 8/28/2023 - due to a recent lack of motivation, I will be temporarily skipping the rest of my to-do list for this project and moving on to other projects. I'm making this choice mostly because I want to continue learning new content instead of perfecting style design.
